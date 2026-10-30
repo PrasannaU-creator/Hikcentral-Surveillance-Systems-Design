@@ -14,14 +14,14 @@ configuration.
 
 | Document | Description |
 |----------|-------------|
-| 📶 [**Network Architecture**](docs/HikCentral_Network_Architecture.pdf) | Topology, device models, VLAN & fibre backbone design |
-| 💾 [**Storage & RAID Architecture**](docs/HikCentral_Storage_RAID_Architecture.pdf) | Capacity calculation, HDD configuration & retention planning |
+| 📶 [**Network Architecture**](HikCentral_Network_Architecture.pdf) | Topology, device models, VLAN & fibre backbone design |
+| 💾 [**Storage & RAID Architecture**](HikCentral_Storage_RAID_Architecture.pdf) | Capacity calculation, HDD configuration & retention planning |
 
 ---
 
 ## 📶 Network Architecture
 
-![Network Architecture cover](assets/network-cover.png)
+![Network Architecture cover](network-cover.png)
 
 **What's covered**
 - **End-to-end topology** — cameras → access → distribution → redundant core → server farm → operator clients
@@ -29,13 +29,13 @@ configuration.
 - **VLAN segmentation & IP plan** — isolated management/server zone, per-zone camera subnets
 - **Fibre backbone** — 10G access, 25G aggregation/core, OS2 single-mode & OM4 multimode with matching optics
 
-![Network topology](assets/network-topology.png)
+![Network topology](network-topology.png)
 
 ---
 
 ## 💾 Storage & RAID Architecture
 
-![Storage Architecture cover](assets/storage-cover.png)
+![Storage Architecture cover](storage-cover.png)
 
 **What's covered**
 - **Bitrate & capacity calculation** — H.265 @ 4 Mbps, 24/7 continuous (per camera, per server, whole system)
@@ -44,7 +44,7 @@ configuration.
 - **Retention planning** — drive-size → retention table (≈35 to ≈105 days)
 - **Storage stack** — physical disks → RAID arrays → storage pool → LUNs → record volumes
 
-![Storage stack](assets/storage-stack.png)
+![Storage stack](storage-stack.png)
 
 ---
 
